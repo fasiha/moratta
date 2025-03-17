@@ -22,11 +22,11 @@ const MORA = shuffle(
 interface Example {
   mora: string;
   text: string;
-  roumaji: string;
+  roumaji: string[];
   common: boolean;
 }
 const getExample = (mora: Mora): Example => {
-  const data = sample(EXAMPLES[mora]) as [string, boolean, string];
+  const data = sample(EXAMPLES[mora]) as [string, boolean, string[]];
   return { mora, text: data[0], common: data[1], roumaji: data[2] };
 };
 
@@ -37,17 +37,18 @@ function App() {
   const [input, setInput] = createSignal("");
   const [inputStarted, setInputStarted] = createSignal(0); // 0: not started, +: Date.now, -: duration
 
-  const match = createMemo(() => input() === randomExample().roumaji);
+  const match = createMemo(() => randomExample().roumaji.includes(input()));
 
   createEffect(() => {
     if (match()) {
-      setInputStarted((old) => (old >= 0 ? old : -(Date.now() - old)));
+      console.log("rerunning setter");
+      setInputStarted((old) => (old >= 0 ? -(Date.now() - old) : old));
     }
   });
 
   const handleInput = (e: InputEvent & { currentTarget: HTMLInputElement }) => {
     setInput(e.currentTarget.value);
-    setInputStarted((old) => (old > 0 ? old : Date.now()));
+    setInputStarted((old) => (old === 0 ? Date.now() : old));
   };
   const handleSubmit = (e: SubmitEvent) => {
     e.preventDefault();
