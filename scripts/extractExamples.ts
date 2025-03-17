@@ -70,6 +70,9 @@ const serializeDb = (db: DB, isCommon: Set<string>): string => {
       if (res[0] === "チラッチラッ") {
         res[2].push("chiracchira");
       }
+      if (res[2][0].includes("n'")) {
+        res[2].push(res[2][0].replaceAll(/n'/g, "nn"));
+      }
       return res;
     });
     obj[key] = res.sort((a, b) => Number(b[1]) - Number(a[1]));

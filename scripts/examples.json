@@ -2389,14 +2389,16 @@
    "コンピューターえんようせいさん",
    false,
    [
-    "konpyuutaaen'youseisan"
+    "konpyuutaaen'youseisan",
+    "konpyuutaaennyouseisan"
    ]
   ],
   [
    "コンピューターえんようせっけい",
    false,
    [
-    "konpyuutaaen'yousekkei"
+    "konpyuutaaen'yousekkei",
+    "konpyuutaaennyousekkei"
    ]
   ],
   [
@@ -8837,7 +8839,8 @@
    "いちげんいっこう",
    false,
    [
-    "ichigen'ikkou"
+    "ichigen'ikkou",
+    "ichigennikkou"
    ]
   ]
  ],
@@ -9105,7 +9108,8 @@
    "オープンエンドモーゲージ",
    false,
    [
-    "oopun'endomoogeeji"
+    "oopun'endomoogeeji",
+    "oopunnendomoogeeji"
    ]
   ],
   [
@@ -14856,7 +14860,8 @@
    "インターナションアリズム",
    false,
    [
-    "intaanashon'arizumu"
+    "intaanashon'arizumu",
+    "intaanashonnarizumu"
    ]
   ]
  ],
@@ -15096,14 +15101,16 @@
    "コンピューターえんようせいさん",
    false,
    [
-    "konpyuutaaen'youseisan"
+    "konpyuutaaen'youseisan",
+    "konpyuutaaennyouseisan"
    ]
   ],
   [
    "コンピューターえんようせっけい",
    false,
    [
-    "konpyuutaaen'yousekkei"
+    "konpyuutaaen'yousekkei",
+    "konpyuutaaennyousekkei"
    ]
   ],
   [
@@ -15201,7 +15208,8 @@
    "マルコフせんい",
    false,
    [
-    "marukofusen'i"
+    "marukofusen'i",
+    "marukofusenni"
    ]
   ],
   [
@@ -15709,14 +15717,16 @@
    "あんぜんいき",
    false,
    [
-    "anzen'iki"
+    "anzen'iki",
+    "anzenniki"
    ]
   ],
   [
    "あんぜんうんてん",
    false,
    [
-    "anzen'unten"
+    "anzen'unten",
+    "anzennunten"
    ]
   ],
   [
@@ -17264,7 +17274,8 @@
    "いんおうごぞく",
    false,
    [
-    "in'ougozoku"
+    "in'ougozoku",
+    "innougozoku"
    ]
   ],
   [
@@ -23955,7 +23966,8 @@
    "ちんどんや",
    false,
    [
-    "chindon'ya"
+    "chindon'ya",
+    "chindonnya"
    ]
   ],
   [
@@ -30284,7 +30296,8 @@
    "ひんやり",
    false,
    [
-    "hin'yari"
+    "hin'yari",
+    "hinnyari"
    ]
   ],
   [
@@ -31762,7 +31775,8 @@
    "いっぴんいっしょう",
    false,
    [
-    "ippin'isshou"
+    "ippin'isshou",
+    "ippinnisshou"
    ]
   ],
   [
@@ -37198,7 +37212,8 @@
    "ぼんやり",
    true,
    [
-    "bon'yari"
+    "bon'yari",
+    "bonnyari"
    ]
   ],
   [
@@ -37655,7 +37670,8 @@
    "ボンヤリ",
    false,
    [
-    "bon'yari"
+    "bon'yari",
+    "bonnyari"
    ]
   ],
   [
@@ -41266,7 +41282,8 @@
    "オープンエンドモーゲージ",
    false,
    [
-    "oopun'endomoogeeji"
+    "oopun'endomoogeeji",
+    "oopunnendomoogeeji"
    ]
   ],
   [
@@ -41478,7 +41495,8 @@
    "ぼんやり",
    true,
    [
-    "bon'yari"
+    "bon'yari",
+    "bonnyari"
    ]
   ],
   [
@@ -41632,7 +41650,8 @@
    "ちんどんや",
    false,
    [
-    "chindon'ya"
+    "chindon'ya",
+    "chindonnya"
    ]
   ],
   [
@@ -41667,7 +41686,8 @@
    "ひんやり",
    false,
    [
-    "hin'yari"
+    "hin'yari",
+    "hinnyari"
    ]
   ],
   [
@@ -41823,7 +41843,8 @@
    "ボンヤリ",
    false,
    [
-    "bon'yari"
+    "bon'yari",
+    "bonnyari"
    ]
   ],
   [
@@ -42140,14 +42161,16 @@
    "うんゆ",
    true,
    [
-    "un'yu"
+    "un'yu",
+    "unnyu"
    ]
   ],
   [
    "うんゆしょう",
    true,
    [
-    "un'yushou"
+    "un'yushou",
+    "unnyushou"
    ]
   ],
   [
@@ -42259,7 +42282,8 @@
    "あんゆ",
    false,
    [
-    "an'yu"
+    "an'yu",
+    "annyu"
    ]
   ],
   [
@@ -42343,7 +42367,8 @@
    "いんゆ",
    false,
    [
-    "in'yu"
+    "in'yu",
+    "innyu"
    ]
   ],
   [
@@ -42378,7 +42403,8 @@
    "うんゆだいじん",
    false,
    [
-    "un'yudaijin"
+    "un'yudaijin",
+    "unnyudaijin"
    ]
   ],
   [
@@ -42420,14 +42446,16 @@
    "えんゆうかい",
    false,
    [
-    "en'yuukai"
+    "en'yuukai",
+    "ennyuukai"
    ]
   ],
   [
    "えんゆう",
    false,
    [
-    "en'yuu"
+    "en'yuu",
+    "ennyuu"
    ]
   ],
   [
@@ -42520,7 +42548,8 @@
    "インフォメーションユーティリティー",
    false,
    [
-    "infuomeeshon'yuuteiriteii"
+    "infuomeeshon'yuuteiriteii",
+    "infuomeeshonnyuuteiriteii"
    ]
   ],
   [
@@ -42541,14 +42570,16 @@
    "オープンユニバーシティー",
    false,
    [
-    "oopun'yunibaashiteii"
+    "oopun'yunibaashiteii",
+    "oopunnyunibaashiteii"
    ]
   ],
   [
    "オンユアマーク",
    false,
    [
-    "on'yuamaaku"
+    "on'yuamaaku",
+    "onnyuamaaku"
    ]
   ],
   [
@@ -43138,14 +43169,16 @@
    "コンピューターえんようせいさん",
    false,
    [
-    "konpyuutaaen'youseisan"
+    "konpyuutaaen'youseisan",
+    "konpyuutaaennyouseisan"
    ]
   ],
   [
    "コンピューターえんようせっけい",
    false,
    [
-    "konpyuutaaen'yousekkei"
+    "konpyuutaaen'yousekkei",
+    "konpyuutaaennyousekkei"
    ]
   ],
   [
@@ -43336,7 +43369,8 @@
    "フローズンヨーグルト",
    false,
    [
-    "furoozun'yooguruto"
+    "furoozun'yooguruto",
+    "furoozunnyooguruto"
    ]
   ],
   [
@@ -43357,7 +43391,8 @@
    "プレーンヨーグルト",
    false,
    [
-    "pureen'yooguruto"
+    "pureen'yooguruto",
+    "pureennyooguruto"
    ]
   ],
   [
@@ -48046,7 +48081,8 @@
    "かんいっぱつをいれず",
    false,
    [
-    "kan'ippatsuwoirezu"
+    "kan'ippatsuwoirezu",
+    "kannippatsuwoirezu"
    ]
   ],
   [
@@ -52984,7 +53020,8 @@
    "あしょうさんえん",
    false,
    [
-    "ashousan'en"
+    "ashousan'en",
+    "ashousannen"
    ]
   ],
   [
@@ -57835,7 +57872,8 @@
    "ひゃくにんいっしゅ",
    false,
    [
-    "hyakunin'isshu"
+    "hyakunin'isshu",
+    "hyakuninnisshu"
    ]
   ],
   [
@@ -58191,35 +58229,40 @@
    "ヒューマンアセスメント",
    false,
    [
-    "hyuuman'asesumento"
+    "hyuuman'asesumento",
+    "hyuumannasesumento"
    ]
   ],
   [
    "ヒューマンインタフェース",
    false,
    [
-    "hyuuman'intafyeesu"
+    "hyuuman'intafyeesu",
+    "hyuumannintafyeesu"
    ]
   ],
   [
    "ヒューマンインタレスト",
    false,
    [
-    "hyuuman'intaresuto"
+    "hyuuman'intaresuto",
+    "hyuumannintaresuto"
    ]
   ],
   [
    "ヒューマンエコロジー",
    false,
    [
-    "hyuuman'ekorojii"
+    "hyuuman'ekorojii",
+    "hyuumannekorojii"
    ]
   ],
   [
    "ヒューマンエンジニアリング",
    false,
    [
-    "hyuuman'enjiniaringu"
+    "hyuuman'enjiniaringu",
+    "hyuumannenjiniaringu"
    ]
   ],
   [
@@ -58331,7 +58374,8 @@
    "ヒューマンインターフェース",
    false,
    [
-    "hyuuman'intaafyeesu"
+    "hyuuman'intaafyeesu",
+    "hyuumannintaafyeesu"
    ]
   ],
   [
@@ -58359,14 +58403,16 @@
    "ヒューマンウェイブ",
    false,
    [
-    "hyuuman'ueibu"
+    "hyuuman'ueibu",
+    "hyuumannueibu"
    ]
   ],
   [
    "ヒューマンウエーブ",
    false,
    [
-    "hyuuman'ueebu"
+    "hyuuman'ueebu",
+    "hyuumannueebu"
    ]
   ],
   [
@@ -58422,7 +58468,8 @@
    "ヒューマンエラー",
    false,
    [
-    "hyuuman'eraa"
+    "hyuuman'eraa",
+    "hyuumanneraa"
    ]
   ],
   [
@@ -60562,7 +60609,8 @@
    "リャンファンヤク",
    false,
    [
-    "ryanfuan'yaku"
+    "ryanfuan'yaku",
+    "ryanfuannyaku"
    ]
   ],
   [
@@ -60802,7 +60850,8 @@
    "ありゅうさんえん",
    false,
    [
-    "aryuusan'en"
+    "aryuusan'en",
+    "aryuusannen"
    ]
   ],
   [
@@ -60956,7 +61005,8 @@
    "げんゆりゅうしゅつ",
    false,
    [
-    "gen'yuryuushutsu"
+    "gen'yuryuushutsu",
+    "gennyuryuushutsu"
    ]
   ],
   [
@@ -63555,7 +63605,8 @@
    "えんようぎょぎょう",
    false,
    [
-    "en'yougyogyou"
+    "en'yougyogyou",
+    "ennyougyogyou"
    ]
   ],
   [
@@ -64359,7 +64410,8 @@
    "びゃくだんゆ",
    false,
    [
-    "byakudan'yu"
+    "byakudan'yu",
+    "byakudannyu"
    ]
   ],
   [
@@ -65783,14 +65835,16 @@
    "コンピューターえんようせいさん",
    false,
    [
-    "konpyuutaaen'youseisan"
+    "konpyuutaaen'youseisan",
+    "konpyuutaaennyouseisan"
    ]
   ],
   [
    "コンピューターえんようせっけい",
    false,
    [
-    "konpyuutaaen'yousekkei"
+    "konpyuutaaen'yousekkei",
+    "konpyuutaaennyousekkei"
    ]
   ],
   [
@@ -66347,7 +66401,8 @@
    "ピョンヤン",
    true,
    [
-    "pyon'yan"
+    "pyon'yan",
+    "pyonnyan"
    ]
   ],
   [
@@ -66431,7 +66486,8 @@
    "ピョンヤンじかん",
    false,
    [
-    "pyon'yanjikan"
+    "pyon'yanjikan",
+    "pyonnyanjikan"
    ]
   ]
  ]

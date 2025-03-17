@@ -6,6 +6,12 @@ A simple app for me to grind hiragana and katakana using real vocabulary.
 
 Go to https://fasiha.github.io/moratta/ and convert each word to roumaji.
 
+For words where ん (or ン) is followed by あいうえお or や or ゆ etc., like maybe しんいち, you can enter either
+- `shinnichi` or
+- `shin'ichi`
+
+but not `shinichi` because that's bleh.
+
 There's no way to see what the "right" answer is in the website but the answer key is [here](./scripts/examples.json). If you think we should add another roumaji answer, open an [issue](https://github.com/fasiha/moratta/issues) or [get in touch](https://fasiha.github.io/#contact).
 
 The site doesn't use any spaced-repetition system, since the goal is to make sure you know *all* the moras (hiragana and katakana syllables). On initial page load, we shuffle the order of moras you'll be quizzed on, and each time you convert a word to roumaji, we move all the moras you just answered to the end of the list. 
