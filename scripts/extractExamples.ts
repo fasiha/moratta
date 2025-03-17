@@ -72,10 +72,10 @@ const dbToStillLooking = (db: DB): Set<string> => {
 };
 
 const serializeDb = (db: DB, isCommon: Set<string>): string => {
-  const obj: Record<string, [string, boolean, string][]> = {};
+  const obj: Record<string, [string, boolean, string[]][]> = {};
   for (const [key, val] of db) {
     const res = [...val].map(
-      (x) => [x, isCommon.has(x), toRomaji(x)] as [string, boolean, string]
+      (x) => [x, isCommon.has(x), [toRomaji(x)]] as [string, boolean, string[]]
     );
     obj[key] = res.sort((a, b) => Number(b[1]) - Number(a[1]));
   }
