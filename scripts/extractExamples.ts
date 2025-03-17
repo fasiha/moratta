@@ -4,6 +4,9 @@
 import { readFile, writeFile } from "fs/promises";
 import { toRomaji } from "wanakana";
 
+const JMDICT_FILENAME = "jmdict-eng-3.6.1.json";
+const MIN_EXAMPLES = 50;
+
 let hiragana =
   "ぁあぃいぅうぇえぉおかがきぎくぐけげこごさざしじすずせぜそぞただちぢっつづてでとどなに" +
   "ぬねのはばぱひびぴふぶぷへべぺほぼまみむめもゃやゅゆょよらりるれろゎわゐゑをんゔゕゖ";
@@ -15,32 +18,17 @@ if (hiragana.length !== katakana.length) {
   throw new Error("Kana strings not same length?");
 }
 
-let kata2hiraMap: Map<string, string> = new Map([]);
 let hira2kataMap: Map<string, string> = new Map([]);
 hiragana.split("").forEach((h, i) => {
-  kata2hiraMap.set(katakana[i], h);
   hira2kataMap.set(h, katakana[i]);
 });
 
-function kata2hira(s: string) {
-  return s
-    .split("")
-    .map((c) => kata2hiraMap.get(c) || c)
-    .join("");
-}
 function hira2kata(s: string) {
   return s
     .split("")
     .map((c) => hira2kataMap.get(c) || c)
     .join("");
 }
-
-/*
-There are other ways of doing this. In Unicode, katakana is 96 codepoints above hiragana. So
-`String.fromCharCode(hiragana.charCodeAt(0) + 96)` will produce katakana. In speed tests though, the above Map-based
-approach had the least variability in runtime (200 to 800 microseconds), while arithmetic-based approaches used 100 to
-1500 microseconds.
-*/
 
 const monographs =
   "あいうえおかがきぎくぐけげこごさざしじすずせぜそぞただちぢつづてでとどなにぬねのはばぱひびぴふぶぷへべぺほぼまみむめもやゆよらりるれろわをんゔ".split(
@@ -59,7 +47,6 @@ interface Word {
 interface Jmdict {
   words: Word[];
 }
-const MIN_EXAMPLES = 50;
 
 const dbToStillLooking = (db: DB): Set<string> => {
   const stillLooking: Set<string> = new Set();
@@ -74,18 +61,24 @@ const dbToStillLooking = (db: DB): Set<string> => {
 const serializeDb = (db: DB, isCommon: Set<string>): string => {
   const obj: Record<string, [string, boolean, string[]][]> = {};
   for (const [key, val] of db) {
-    const res = [...val].map(
-      (x) => [x, isCommon.has(x), [toRomaji(x)]] as [string, boolean, string[]]
-    );
+    const res = [...val].map((x) => {
+      const res = [x, isCommon.has(x), [toRomaji(x)]] as [
+        string,
+        boolean,
+        string[]
+      ];
+      if (res[0] === "チラッチラッ") {
+        res[2].push("chiracchira");
+      }
+      return res;
+    });
     obj[key] = res.sort((a, b) => Number(b[1]) - Number(a[1]));
   }
   return JSON.stringify(obj, null, 1);
 };
 
 (async function main() {
-  const jmdict: Jmdict = JSON.parse(
-    await readFile("jmdict-eng-3.6.1.json", "utf8")
-  );
+  const jmdict: Jmdict = JSON.parse(await readFile(JMDICT_FILENAME, "utf8"));
 
   const db: DB = new Map();
   let stillLooking = new Set<string>();
