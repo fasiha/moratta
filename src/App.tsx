@@ -1,6 +1,7 @@
-import { createMemo, createSignal } from "solid-js";
+import { createEffect, createMemo, createSignal } from "solid-js";
 import "./App.css";
 import EXAMPLES from "../scripts/examples.json";
+import { insertLog } from "./reviewsDb";
 
 const shuffle = (arr: string[]): string[] =>
   arr
@@ -34,31 +35,45 @@ function App() {
   const currentMora = createMemo(() => morasDue()[0]);
   const randomExample = createMemo(() => getExample(currentMora()));
   const [input, setInput] = createSignal("");
+  const [inputStarted, setInputStarted] = createSignal(0); // 0: not started, +: Date.now, -: duration
 
   const match = createMemo(() => input() === randomExample().roumaji);
 
+  createEffect(() => {
+    if (match()) {
+      setInputStarted((old) => (old >= 0 ? old : -(Date.now() - old)));
+    }
+  });
+
+  const handleInput = (e: InputEvent & { currentTarget: HTMLInputElement }) => {
+    setInput(e.currentTarget.value);
+    setInputStarted((old) => (old > 0 ? old : Date.now()));
+  };
   const handleSubmit = (e: SubmitEvent) => {
     e.preventDefault();
     if (!match()) return;
 
     const text = randomExample().text;
+
+    const durationMs =
+      inputStarted() < 0 ? -inputStarted() : Date.now() - inputStarted();
+    insertLog({ text, mora: currentMora(), durationMs });
+
     const morasInExample = new Set(MORA.filter((mora) => text.includes(mora)));
     setMorasDue((old) => [
       ...old.filter((x) => !morasInExample.has(x)),
       ...morasInExample,
     ]);
+
     setInput("");
+    setInputStarted(0);
   };
 
   return (
     <>
       <form onSubmit={handleSubmit}>
         {randomExample().text}{" "}
-        <input
-          value={input()}
-          onInput={(e) => setInput(e.currentTarget.value)}
-          type="text"
-        />{" "}
+        <input value={input()} onInput={handleInput} type="text" />{" "}
         <button type="submit" disabled={!match()}>
           Next
         </button>
