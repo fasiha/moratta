@@ -56,7 +56,6 @@ function App() {
 
   createEffect(() => {
     if (match()) {
-      console.log("rerunning setter");
       setInputStarted((old) => (old >= 0 ? -(Date.now() - old) : old));
     }
   });
