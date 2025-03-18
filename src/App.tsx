@@ -93,6 +93,7 @@ function App() {
           value={input()}
           onInput={handleInput}
           autocorrect="off"
+          spellcheck={false}
           type="text"
         />{" "}
         <button type="submit" disabled={!match()}>
