@@ -44,7 +44,7 @@ const toRomajiFixed: typeof toRomaji = (x, y) =>
       .replace(/ぢゃ/g, "dya")
       .replace(/[ぢヂ]/g, "di"),
     y
-  ).replace(/n'/g, "nn");
+  ).replace(/n'/g, "n"); // this allows technically incorrect submissions but I assume that's ok
 const serializeDb = (db: DB, isCommon: Set<string>): string => {
   const obj: Record<string, [string, boolean, string[]][]> = {};
   for (const [key, val] of db) {

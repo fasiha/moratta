@@ -8,7 +8,7 @@ Go to https://fasiha.github.io/moratta/ and convert each word to roumaji.
 
 ![Demo showing how you type in roumaji and, after hitting enter, a new word appears](./demo.gif)
 
-For words where ん (or ン) is followed by あいうえお or や or ゆ etc., like maybe しんいち, you enter a double `nn` just like when typing on IME: `shinnichi` ✅ (not `shinichi` ❌ because that's bleh).
+For words where ん (or ン) is followed by あいうえお or や or ゆ etc., like maybe しんいち, you enter a double `nn` just like when typing on IME: `shinnichi`. (Though `shinichi` is technically wrong, we'll accept it because this isn't an IME.)
 
 And in general, both `n` and double `nn` are allowed for ん/ン.
 
