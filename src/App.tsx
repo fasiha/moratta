@@ -89,11 +89,19 @@ function App() {
     <>
       <form onSubmit={handleSubmit}>
         {randomExample().text}{" "}
-        <input value={input()} onInput={handleInput} type="text" />{" "}
+        <input
+          value={input()}
+          onInput={handleInput}
+          autocorrect="off"
+          type="text"
+        />{" "}
         <button type="submit" disabled={!match()}>
           Next
         </button>
       </form>
+      <div class="footer">
+        <a href="https://github.com/fasiha/moratta#readme">Help</a>
+      </div>
     </>
   );
 }
