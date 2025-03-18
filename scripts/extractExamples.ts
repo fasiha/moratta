@@ -2,33 +2,10 @@
 // run with `NODE_NO_WARNINGS=1 node --experimental-transform-types extractExamples.ts`
 
 import { readFile, writeFile } from "fs/promises";
-import { toRomaji } from "wanakana";
+import { toRomaji, toKatakana, isHiragana } from "wanakana";
 
 const JMDICT_FILENAME = "jmdict-eng-3.6.1.json";
 const MIN_EXAMPLES = 50;
-
-let hiragana =
-  "ぁあぃいぅうぇえぉおかがきぎくぐけげこごさざしじすずせぜそぞただちぢっつづてでとどなに" +
-  "ぬねのはばぱひびぴふぶぷへべぺほぼまみむめもゃやゅゆょよらりるれろゎわゐゑをんゔゕゖ";
-let katakana =
-  "ァアィイゥウェエォオカガキギクグケゲコゴサザシジスズセゼソゾタダチヂッツヅテデトドナニ" +
-  "ヌネノハバパヒビピフブプヘベペホボマミムメモャヤュユョヨラリルレロヮワヰヱヲンヴヵヶ";
-
-if (hiragana.length !== katakana.length) {
-  throw new Error("Kana strings not same length?");
-}
-
-let hira2kataMap: Map<string, string> = new Map([]);
-hiragana.split("").forEach((h, i) => {
-  hira2kataMap.set(h, katakana[i]);
-});
-
-function hira2kata(s: string) {
-  return s
-    .split("")
-    .map((c) => hira2kataMap.get(c) || c)
-    .join("");
-}
 
 const monographs =
   "あいうえおかがきぎくぐけげこごさざしじすずせぜそぞただちぢつづてでとどなにぬねのはばぱひびぴふぶぷへべぺほぼまみむめもやゆよらりるれろわをんゔ".split(
@@ -58,21 +35,27 @@ const dbToStillLooking = (db: DB): Set<string> => {
   return stillLooking;
 };
 
+const toRomajiFixed: typeof toRomaji = (x, y) =>
+  toRomaji(
+    x
+      ?.replaceAll(/[づヅ]/g, "du")
+      .replace(/ぢゅ/g, "dyu")
+      .replace(/ぢょ/g, "dyo")
+      .replace(/ぢゃ/g, "dya")
+      .replace(/[ぢヂ]/g, "di"),
+    y
+  ).replace(/n'/g, "nn");
 const serializeDb = (db: DB, isCommon: Set<string>): string => {
   const obj: Record<string, [string, boolean, string[]][]> = {};
   for (const [key, val] of db) {
     const res = [...val].map((x) => {
-      const res = [x, isCommon.has(x), [toRomaji(x)]] as [
+      const simpleRoumaji = toRomajiFixed(x);
+      // we can likely drop the third item back to a single string instead of an array
+      const res = [x, isCommon.has(x), [simpleRoumaji]] as [
         string,
         boolean,
         string[]
       ];
-      if (res[0] === "チラッチラッ") {
-        res[2].push("chiracchira");
-      }
-      if (res[2][0].includes("n'")) {
-        res[2].push(res[2][0].replaceAll(/n'/g, "nn"));
-      }
       return res;
     });
     obj[key] = res.sort((a, b) => Number(b[1]) - Number(a[1]));
@@ -89,7 +72,7 @@ const serializeDb = (db: DB, isCommon: Set<string>): string => {
 
   for (const char of [...monographs, ...digraphs]) {
     db.set(char, new Set());
-    db.set(hira2kata(char), new Set());
+    db.set(toKatakana(char), new Set());
   }
   for (const entry of db.keys()) stillLooking.add(entry);
 
@@ -99,6 +82,11 @@ const serializeDb = (db: DB, isCommon: Set<string>): string => {
       for (const { text, common } of w.kana) {
         if (commonOnly && !common) continue;
         if (text.includes("ーー") || text.includes("・")) continue;
+        {
+          const idx = text.indexOf("ー");
+          const prev: string | undefined = text[idx - 1];
+          if (isHiragana(prev)) continue;
+        }
 
         for (const char of stillLooking) {
           if (text.includes(char)) {

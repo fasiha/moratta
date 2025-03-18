@@ -37,7 +37,22 @@ function App() {
   const [input, setInput] = createSignal("");
   const [inputStarted, setInputStarted] = createSignal(0); // 0: not started, +: Date.now, -: duration
 
-  const match = createMemo(() => randomExample().roumaji.includes(input()));
+  const match = createMemo(() =>
+    randomExample().roumaji.includes(
+      input()
+        .toLowerCase()
+        .replace(/\s/g, "")
+        .replace(/tu/g, "tsu")
+        .replace(/fi/g, "fyi")
+        .replace(/cch/g, "tch")
+        .replace(/fa/g, "fua")
+        .replace(/nn([^y]?)/g, "n$1")
+        .replace(/si/g, "shi")
+        .replace(/jy/g, "j")
+        .replace(/chy/g, "ch")
+        .replace(/([^sc]|^)hu/g, "$1fu")
+    )
+  );
 
   createEffect(() => {
     if (match()) {

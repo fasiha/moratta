@@ -29,13 +29,6 @@
    ]
   ],
   [
-   "あのー",
-   true,
-   [
-    "ano-"
-   ]
-  ],
-  [
    "あのひと",
    true,
    [
@@ -124,6 +117,13 @@
    true,
    [
     "kotogaaru"
+   ]
+  ],
+  [
+   "このあいだ",
+   true,
+   [
+    "konoaida"
    ]
   ],
   [
@@ -288,13 +288,6 @@
    ]
   ],
   [
-   "あらー",
-   false,
-   [
-    "ara-"
-   ]
-  ],
-  [
    "いかなるばあいでも",
    false,
    [
@@ -348,6 +341,13 @@
    false,
    [
     "konoyounabaaini"
+   ]
+  ],
+  [
+   "このばあい",
+   false,
+   [
+    "konobaai"
    ]
   ]
  ],
@@ -897,7 +897,7 @@
    "いぢましい",
    false,
    [
-    "ijimashii"
+    "idimashii"
    ]
   ],
   [
@@ -2211,34 +2211,6 @@
    ]
   ],
   [
-   "えー",
-   false,
-   [
-    "e-"
-   ]
-  ],
-  [
-   "えーっ",
-   false,
-   [
-    "e-"
-   ]
-  ],
-  [
-   "えーと",
-   false,
-   [
-    "e-to"
-   ]
-  ],
-  [
-   "えーっと",
-   false,
-   [
-    "e-tto"
-   ]
-  ],
-  [
    "ええと",
    false,
    [
@@ -2389,7 +2361,6 @@
    "コンピューターえんようせいさん",
    false,
    [
-    "konpyuutaaen'youseisan",
     "konpyuutaaennyouseisan"
    ]
   ],
@@ -2397,7 +2368,6 @@
    "コンピューターえんようせっけい",
    false,
    [
-    "konpyuutaaen'yousekkei",
     "konpyuutaaennyousekkei"
    ]
   ],
@@ -2462,6 +2432,34 @@
    false,
    [
     "aenban"
+   ]
+  ],
+  [
+   "あえんまつ",
+   false,
+   [
+    "aenmatsu"
+   ]
+  ],
+  [
+   "あしょうさんえん",
+   false,
+   [
+    "ashousannen"
+   ]
+  ],
+  [
+   "ありゅうさんえん",
+   false,
+   [
+    "aryuusannen"
+   ]
+  ],
+  [
+   "あいにうえる",
+   false,
+   [
+    "ainiueru"
    ]
   ]
  ],
@@ -3628,13 +3626,6 @@
    ]
   ],
   [
-   "かなー",
-   true,
-   [
-    "kana-"
-   ]
-  ],
-  [
    "かなわない",
    true,
    [
@@ -3870,6 +3861,13 @@
    false,
    [
     "kanaa"
+   ]
+  ],
+  [
+   "かみさん",
+   false,
+   [
+    "kamisan"
    ]
   ]
  ],
@@ -4357,13 +4355,6 @@
    false,
    [
     "ikagawashii"
-   ]
-  ],
-  [
-   "がーっと",
-   false,
-   [
-    "ga-tto"
    ]
   ],
   [
@@ -5148,13 +5139,6 @@
    ]
   ],
   [
-   "きーきー",
-   false,
-   [
-    "ki-ki-"
-   ]
-  ],
-  [
    "きいきい",
    false,
    [
@@ -5285,6 +5269,13 @@
    false,
    [
     "dekiruyouninaru"
+   ]
+  ],
+  [
+   "ときめき",
+   false,
+   [
+    "tokimeki"
    ]
   ]
  ],
@@ -7845,6 +7836,13 @@
    ]
   ],
   [
+   "ぼやける",
+   true,
+   [
+    "boyakeru"
+   ]
+  ],
+  [
    "あどけない",
    false,
    [
@@ -7974,7 +7972,7 @@
    "づけづけ",
    false,
    [
-    "zukezuke"
+    "dukeduke"
    ]
   ],
   [
@@ -8024,20 +8022,6 @@
    false,
    [
     "dekkee"
-   ]
-  ],
-  [
-   "でけー",
-   false,
-   [
-    "deke-"
-   ]
-  ],
-  [
-   "でっけー",
-   false,
-   [
-    "dekke-"
    ]
   ],
   [
@@ -8101,6 +8085,13 @@
    false,
    [
     "hokke"
+   ]
+  ],
+  [
+   "ボヤける",
+   false,
+   [
+    "boyakeru"
    ]
   ]
  ],
@@ -8839,7 +8830,6 @@
    "いちげんいっこう",
    false,
    [
-    "ichigen'ikkou",
     "ichigennikkou"
    ]
   ]
@@ -9108,7 +9098,6 @@
    "オープンエンドモーゲージ",
    false,
    [
-    "oopun'endomoogeeji",
     "oopunnendomoogeeji"
    ]
   ],
@@ -9339,6 +9328,20 @@
    ]
   ],
   [
+   "こつこつ",
+   true,
+   [
+    "kotsukotsu"
+   ]
+  ],
+  [
+   "ことがある",
+   true,
+   [
+    "kotogaaru"
+   ]
+  ],
+  [
    "あうんのこきゅう",
    false,
    [
@@ -9455,20 +9458,6 @@
    false,
    [
     "kouyuu"
-   ]
-  ],
-  [
-   "こーゆー",
-   false,
-   [
-    "ko-yu-"
-   ]
-  ],
-  [
-   "こーいう",
-   false,
-   [
-    "ko-iu"
    ]
   ],
   [
@@ -9987,6 +9976,13 @@
    ]
   ],
   [
+   "スワヒリご",
+   true,
+   [
+    "suwahirigo"
+   ]
+  ],
+  [
    "あまご",
    false,
    [
@@ -9998,13 +9994,6 @@
    false,
    [
     "igossou"
-   ]
-  ],
-  [
-   "おはよーございます",
-   false,
-   [
-    "ohayo-gozaimasu"
    ]
   ],
   [
@@ -10754,6 +10743,13 @@
    ]
   ],
   [
+   "ごちそうさまでした",
+   true,
+   [
+    "gochisousamadeshita"
+   ]
+  ],
+  [
    "あからさま",
    false,
    [
@@ -10863,13 +10859,6 @@
    false,
    [
     "omaesan"
-   ]
-  ],
-  [
-   "おばーさん",
-   false,
-   [
-    "oba-san"
    ]
   ],
   [
@@ -11402,6 +11391,13 @@
    ]
   ],
   [
+   "えんざん",
+   true,
+   [
+    "enzan"
+   ]
+  ],
+  [
    "いざ",
    false,
    [
@@ -11413,13 +11409,6 @@
    false,
    [
     "ozanarininaru"
-   ]
-  ],
-  [
-   "おはよーございます",
-   false,
-   [
-    "ohayo-gozaimasu"
    ]
   ],
   [
@@ -11483,13 +11472,6 @@
    false,
    [
     "muzasabi"
-   ]
-  ],
-  [
-   "ざーざー",
-   false,
-   [
-    "za-za-"
    ]
   ],
   [
@@ -11665,6 +11647,13 @@
    false,
    [
     "unzan"
+   ]
+  ],
+  [
+   "えんざ",
+   false,
+   [
+    "enza"
    ]
   ]
  ],
@@ -12221,7 +12210,7 @@
    "いぢましい",
    false,
    [
-    "ijimashii"
+    "idimashii"
    ]
   ],
   [
@@ -12992,20 +12981,6 @@
    ]
   ],
   [
-   "じーっと",
-   false,
-   [
-    "ji-tto"
-   ]
-  ],
-  [
-   "じーと",
-   false,
-   [
-    "ji-to"
-   ]
-  ],
-  [
    "じいっと",
    false,
    [
@@ -13087,6 +13062,20 @@
    false,
    [
     "sonojitsu"
+   ]
+  ],
+  [
+   "それいじょう",
+   false,
+   [
+    "soreijou"
+   ]
+  ],
+  [
+   "たじたじ",
+   false,
+   [
+    "tajitaji"
    ]
   ]
  ],
@@ -13563,6 +13552,13 @@
    ]
   ],
   [
+   "すやすや",
+   true,
+   [
+    "suyasuya"
+   ]
+  ],
+  [
    "あすこ",
    false,
    [
@@ -13626,13 +13622,6 @@
    ]
   ],
   [
-   "おはよーございます",
-   false,
-   [
-    "ohayo-gozaimasu"
-   ]
-  ],
-  [
    "ぎすぎす",
    false,
    [
@@ -13693,13 +13682,6 @@
    false,
    [
     "jirasu"
-   ]
-  ],
-  [
-   "すーすー",
-   false,
-   [
-    "su-su-"
    ]
   ],
   [
@@ -13791,6 +13773,13 @@
    false,
    [
     "subashikoi"
+   ]
+  ],
+  [
+   "すべた",
+   false,
+   [
+    "subeta"
    ]
   ]
  ],
@@ -14183,13 +14172,6 @@
    ]
   ],
   [
-   "ずーっと",
-   true,
-   [
-    "zu-tto"
-   ]
-  ],
-  [
    "ずばり",
    true,
    [
@@ -14502,6 +14484,13 @@
    false,
    [
     "inonakanokawazu,taikaiwoshirazu"
+   ]
+  ],
+  [
+   "いどみず",
+   false,
+   [
+    "idomizu"
    ]
   ]
  ],
@@ -14860,7 +14849,6 @@
    "インターナションアリズム",
    false,
    [
-    "intaanashon'arizumu",
     "intaanashonnarizumu"
    ]
   ]
@@ -15101,7 +15089,6 @@
    "コンピューターえんようせいさん",
    false,
    [
-    "konpyuutaaen'youseisan",
     "konpyuutaaennyouseisan"
    ]
   ],
@@ -15109,7 +15096,6 @@
    "コンピューターえんようせっけい",
    false,
    [
-    "konpyuutaaen'yousekkei",
     "konpyuutaaennyousekkei"
    ]
   ],
@@ -15208,7 +15194,6 @@
    "マルコフせんい",
    false,
    [
-    "marukofusen'i",
     "marukofusenni"
    ]
   ],
@@ -15717,7 +15702,6 @@
    "あんぜんいき",
    false,
    [
-    "anzen'iki",
     "anzenniki"
    ]
   ],
@@ -15725,7 +15709,6 @@
    "あんぜんうんてん",
    false,
    [
-    "anzen'unten",
     "anzennunten"
    ]
   ],
@@ -16567,13 +16550,6 @@
    ]
   ],
   [
-   "そーっと",
-   false,
-   [
-    "so-tto"
-   ]
-  ],
-  [
    "そん",
    false,
    [
@@ -17274,7 +17250,6 @@
    "いんおうごぞく",
    false,
    [
-    "in'ougozoku",
     "innougozoku"
    ]
   ],
@@ -19767,8 +19742,7 @@
    "チラッチラッ",
    false,
    [
-    "chiratchira",
-    "chiracchira"
+    "chiratchira"
    ]
   ],
   [
@@ -19812,350 +19786,350 @@
    "まぢか",
    true,
    [
-    "majika"
+    "madika"
    ]
   ],
   [
    "ちぢまる",
    true,
    [
-    "chijimaru"
+    "chidimaru"
    ]
   ],
   [
    "ちぢむ",
    true,
    [
-    "chijimu"
+    "chidimu"
    ]
   ],
   [
    "ちぢめる",
    true,
    [
-    "chijimeru"
+    "chidimeru"
    ]
   ],
   [
    "ちぢれる",
    true,
    [
-    "chijireru"
+    "chidireru"
    ]
   ],
   [
    "みぢか",
    true,
    [
-    "mijika"
+    "midika"
    ]
   ],
   [
    "そこぢから",
    true,
    [
-    "sokojikara"
+    "sokodikara"
    ]
   ],
   [
    "ちかぢか",
    true,
    [
-    "chikajika"
+    "chikadika"
    ]
   ],
   [
    "はなぢ",
    true,
    [
-    "hanaji"
+    "hanadi"
    ]
   ],
   [
    "ちぢみ",
    true,
    [
-    "chijimi"
+    "chidimi"
    ]
   ],
   [
    "いぢましい",
    false,
    [
-    "ijimashii"
+    "idimashii"
    ]
   ],
   [
    "ぢりぢり",
    false,
    [
-    "jirijiri"
+    "diridiri"
    ]
   ],
   [
    "まぢ",
    false,
    [
-    "maji"
+    "madi"
    ]
   ],
   [
    "いちにちぢゅう",
    false,
    [
-    "ichinichijuu"
+    "ichinichidyuu"
    ]
   ],
   [
    "いちねんぢゅう",
    false,
    [
-    "ichinenjuu"
+    "ichinendyuu"
    ]
   ],
   [
    "いっぽんぢょうし",
    false,
    [
-    "ipponjoushi"
+    "ippondyoushi"
    ]
   ],
   [
    "やすみぢゃや",
    false,
    [
-    "yasumijaya"
+    "yasumidyaya"
    ]
   ],
   [
    "くちぢゃ",
    false,
    [
-    "kuchija"
+    "kuchidya"
    ]
   ],
   [
    "てぢか",
    false,
    [
-    "tejika"
+    "tedika"
    ]
   ],
   [
    "くびをちぢめる",
    false,
    [
-    "kubiwochijimeru"
+    "kubiwochidimeru"
    ]
   ],
   [
    "ちぢみあがる",
    false,
    [
-    "chijimiagaru"
+    "chidimiagaru"
    ]
   ],
   [
    "ちぢらす",
    false,
    [
-    "chijirasu"
+    "chidirasu"
    ]
   ],
   [
    "あぢぃ",
    false,
    [
-    "ajyi"
-   ]
-  ],
-  [
-   "あぢー",
-   false,
-   [
-    "aji-"
+    "adii"
    ]
   ],
   [
    "あぢい",
    false,
    [
-    "ajii"
+    "adii"
    ]
   ],
   [
    "こぢんまり",
    false,
    [
-    "kojinmari"
+    "kodinmari"
    ]
   ],
   [
    "のびちぢみ",
    false,
    [
-    "nobichijimi"
+    "nobichidimi"
    ]
   ],
   [
    "しんぢゅう",
    false,
    [
-    "shinjuu"
+    "shindyuu"
    ]
   ],
   [
    "ぜんぢしき",
    false,
    [
-    "zenjishiki"
+    "zendishiki"
    ]
   ],
   [
    "いちぢるしい",
    false,
    [
-    "ichijirushii"
+    "ichidirushii"
    ]
   ],
   [
    "ぢょうじゃく",
    false,
    [
-    "joujaku"
+    "dyoujaku"
    ]
   ],
   [
    "ぢんちょうげ",
    false,
    [
-    "jinchouge"
+    "dinchouge"
    ]
   ],
   [
    "いれぢえ",
    false,
    [
-    "irejie"
+    "iredie"
    ]
   ],
   [
    "ねんぢゅう",
    false,
    [
-    "nenjuu"
+    "nendyuu"
    ]
   ],
   [
    "ねんぢゅうぎょうじ",
    false,
    [
-    "nenjuugyouji"
+    "nendyuugyouji"
    ]
   ],
   [
    "ばかぢから",
    false,
    [
-    "bakajikara"
+    "bakadikara"
    ]
   ],
   [
    "つけぢえ",
    false,
    [
-    "tsukejie"
+    "tsukedie"
    ]
   ],
   [
    "いちぢく",
    false,
    [
-    "ichijiku"
+    "ichidiku"
    ]
   ],
   [
    "もんぢゃく",
    false,
    [
-    "monjaku"
+    "mondyaku"
    ]
   ],
   [
    "れんぢゅう",
    false,
    [
-    "renjuu"
+    "rendyuu"
    ]
   ],
   [
    "うでぢから",
    false,
    [
-    "udejikara"
+    "udedikara"
    ]
   ],
   [
    "げぢ",
    false,
    [
-    "geji"
+    "gedi"
    ]
   ],
   [
    "ちぢ",
    false,
    [
-    "chiji"
+    "chidi"
    ]
   ],
   [
    "ちぢに",
    false,
    [
-    "chijini"
+    "chidini"
    ]
   ],
   [
    "まぢかい",
    false,
    [
-    "majikai"
+    "madikai"
    ]
   ],
   [
    "さるぢえ",
    false,
    [
-    "sarujie"
+    "sarudie"
    ]
   ],
   [
    "ちぢこまる",
    false,
    [
-    "chijikomaru"
+    "chidikomaru"
    ]
   ],
   [
    "はぢゃ",
    false,
    [
-    "haja"
+    "hadya"
    ]
   ],
   [
    "のぼりぢょうし",
    false,
    [
-    "noborijoushi"
+    "noboridyoushi"
    ]
   ],
   [
    "あとぢえ",
    false,
    [
-    "atojie"
+    "atodie"
+   ]
+  ],
+  [
+   "はしぢか",
+   false,
+   [
+    "hashidika"
    ]
   ]
  ],
@@ -20164,119 +20138,119 @@
    "ヂリヂリ",
    false,
    [
-    "jirijiri"
+    "diridiri"
    ]
   ],
   [
    "エッヂ",
    false,
    [
-    "ejji"
+    "edi"
    ]
   ],
   [
    "ドッヂボール",
    false,
    [
-    "dojjibooru"
+    "dodibooru"
    ]
   ],
   [
    "バッヂ",
    false,
    [
-    "bajji"
+    "badi"
    ]
   ],
   [
    "ビルヂング",
    false,
    [
-    "birujingu"
+    "birudingu"
    ]
   ],
   [
    "ブルヂヨア",
    false,
    [
-    "burujiyoa"
+    "burudiyoa"
    ]
   ],
   [
    "マヂ",
    false,
    [
-    "maji"
+    "madi"
    ]
   ],
   [
    "ラヂオ",
    false,
    [
-    "rajio"
+    "radio"
    ]
   ],
   [
    "ヂンチョウゲ",
    false,
    [
-    "jinchouge"
+    "dinchouge"
    ]
   ],
   [
    "イチヂク",
    false,
    [
-    "ichijiku"
+    "ichidiku"
    ]
   ],
   [
    "ヒンヂ",
    false,
    [
-    "hinji"
+    "hindi"
    ]
   ],
   [
    "キクヂシャ",
    false,
    [
-    "kikujisha"
+    "kikudisha"
    ]
   ],
   [
    "ノヂシャ",
    false,
    [
-    "nojisha"
+    "nodisha"
    ]
   ],
   [
    "チヂミ",
    false,
    [
-    "chijimi"
+    "chidimi"
    ]
   ],
   [
    "ブリヂストン",
    false,
    [
-    "burijisuton"
+    "buridisuton"
    ]
   ],
   [
    "にほんレヂボン",
    false,
    [
-    "nihonrejibon"
+    "nihonredibon"
    ]
   ],
   [
    "ラヂオプレス",
    false,
    [
-    "rajiopuresu"
+    "radiopuresu"
    ]
   ]
  ],
@@ -20369,7 +20343,7 @@
    "つくづく",
    true,
    [
-    "tsukuzuku"
+    "tsukuduku"
    ]
   ],
   [
@@ -20989,350 +20963,350 @@
    "つくづく",
    true,
    [
-    "tsukuzuku"
+    "tsukuduku"
    ]
   ],
   [
    "いちづけ",
    true,
    [
-    "ichizuke"
+    "ichiduke"
    ]
   ],
   [
    "しつづける",
    true,
    [
-    "shitsuzukeru"
+    "shitsudukeru"
    ]
   ],
   [
    "いちりづか",
    true,
    [
-    "ichirizuka"
+    "ichiriduka"
    ]
   ],
   [
    "よこづな",
    true,
    [
-    "yokozuna"
+    "yokoduna"
    ]
   ],
   [
    "かなづかい",
    true,
    [
-    "kanazukai"
+    "kanadukai"
    ]
   ],
   [
    "にづくり",
    true,
    [
-    "nizukuri"
+    "nidukuri"
    ]
   ],
   [
    "そとづけ",
    true,
    [
-    "sotozuke"
+    "sotoduke"
    ]
   ],
   [
    "かくづけ",
    true,
    [
-    "kakuzuke"
+    "kakuduke"
    ]
   ],
   [
    "かんづめ",
    true,
    [
-    "kanzume"
+    "kandume"
    ]
   ],
   [
    "きづかい",
    true,
    [
-    "kizukai"
+    "kidukai"
    ]
   ],
   [
    "きづかれ",
    true,
    [
-    "kizukare"
+    "kidukare"
    ]
   ],
   [
    "づけづけ",
    false,
    [
-    "zukezuke"
+    "dukeduke"
    ]
   ],
   [
    "づるづる",
    false,
    [
-    "zuruzuru"
+    "duruduru"
    ]
   ],
   [
    "づれる",
    false,
    [
-    "zureru"
+    "dureru"
    ]
   ],
   [
    "にもとづいて",
    false,
    [
-    "nimotozuite"
+    "nimotoduite"
    ]
   ],
   [
    "ラベルづけ",
    false,
    [
-    "raberuzuke"
+    "raberuduke"
    ]
   ],
   [
    "いたづら",
    false,
    [
-    "itazura"
+    "itadura"
    ]
   ],
   [
    "あづちももやまじだい",
    false,
    [
-    "azuchimomoyamajidai"
+    "aduchimomoyamajidai"
    ]
   ],
   [
    "いどづな",
    false,
    [
-    "idozuna"
+    "idoduna"
    ]
   ],
   [
    "いづな",
    false,
    [
-    "izuna"
+    "iduna"
    ]
   ],
   [
    "いづつ",
    false,
    [
-    "izutsu"
+    "idutsu"
    ]
   ],
   [
    "いっぽんづり",
    false,
    [
-    "ipponzuri"
+    "ipponduri"
    ]
   ],
   [
    "いちやづくり",
    false,
    [
-    "ichiyazukuri"
+    "ichiyadukuri"
    ]
   ],
   [
    "いちやづけ",
    false,
    [
-    "ichiyazuke"
+    "ichiyaduke"
    ]
   ],
   [
    "いなづま",
    false,
    [
-    "inazuma"
+    "inaduma"
    ]
   ],
   [
    "いもづる",
    false,
    [
-    "imozuru"
+    "imoduru"
    ]
   ],
   [
    "いもづるしき",
    false,
    [
-    "imozurushiki"
+    "imodurushiki"
    ]
   ],
   [
    "みぎづめ",
    false,
    [
-    "migizume"
+    "migidume"
    ]
   ],
   [
    "おくづとめ",
    false,
    [
-    "okuzutome"
+    "okudutome"
    ]
   ],
   [
    "おくづけ",
    false,
    [
-    "okuzuke"
+    "okuduke"
    ]
   ],
   [
    "よこづけ",
    false,
    [
-    "yokozuke"
+    "yokoduke"
    ]
   ],
   [
    "よこづら",
    false,
    [
-    "yokozura"
+    "yokodura"
    ]
   ],
   [
    "したづみ",
    false,
    [
-    "shitazumi"
+    "shitadumi"
    ]
   ],
   [
    "かぞくづれ",
    false,
    [
-    "kazokuzure"
+    "kazokudure"
    ]
   ],
   [
    "いえつづき",
    false,
    [
-    "ietsuzuki"
+    "ietsuduki"
    ]
   ],
   [
    "にわかづくり",
    false,
    [
-    "niwakazukuri"
+    "niwakadukuri"
    ]
   ],
   [
    "あいづぬり",
    false,
    [
-    "aizunuri"
+    "aidunuri"
    ]
   ],
   [
    "かいどうづかさ",
    false,
    [
-    "kaidouzukasa"
+    "kaidoudukasa"
    ]
   ],
   [
    "なづく",
    false,
    [
-    "nazuku"
+    "naduku"
    ]
   ],
   [
    "そとづら",
    false,
    [
-    "sotozura"
+    "sotodura"
    ]
   ],
   [
    "つづら",
    false,
    [
-    "tsuzura"
+    "tsudura"
    ]
   ],
   [
    "かんづく",
    false,
    [
-    "kanzuku"
+    "kanduku"
    ]
   ],
   [
    "かんびょうづかれ",
    false,
    [
-    "kanbyouzukare"
+    "kanbyoudukare"
    ]
   ],
   [
    "まるきづくり",
    false,
    [
-    "marukizukuri"
+    "marukidukuri"
    ]
   ],
   [
    "がんづめ",
    false,
    [
-    "ganzume"
+    "gandume"
    ]
   ],
   [
    "きづまり",
    false,
    [
-    "kizumari"
+    "kidumari"
    ]
   ],
   [
    "きづかう",
    false,
    [
-    "kizukau"
+    "kidukau"
    ]
   ],
   [
    "きづけ",
    false,
    [
-    "kizuke"
+    "kiduke"
    ]
   ],
   [
    "ありづか",
    false,
    [
-    "arizuka"
+    "ariduka"
    ]
   ]
  ],
@@ -21341,280 +21315,280 @@
    "ヅラ",
    false,
    [
-    "zura"
+    "dura"
    ]
   ],
   [
    "カナヅチ",
    false,
    [
-    "kanazuchi"
+    "kanaduchi"
    ]
   ],
   [
    "アマチャヅル",
    false,
    [
-    "amachazuru"
+    "amachaduru"
    ]
   ],
   [
    "コノハヅク",
    false,
    [
-    "konohazuku"
+    "konohaduku"
    ]
   ],
   [
    "キヅタ",
    false,
    [
-    "kizuta"
+    "kiduta"
    ]
   ],
   [
    "タンチョウヅル",
    false,
    [
-    "tanchouzuru"
+    "tanchouduru"
    ]
   ],
   [
    "マナヅル",
    false,
    [
-    "manazuru"
+    "manaduru"
    ]
   ],
   [
    "クマツヅラか",
    false,
    [
-    "kumatsuzuraka"
+    "kumatsuduraka"
    ]
   ],
   [
    "ウマヅラハギ",
    false,
    [
-    "umazurahagi"
+    "umadurahagi"
    ]
   ],
   [
    "ナベヅル",
    false,
    [
-    "nabezuru"
+    "nabeduru"
    ]
   ],
   [
    "イイヅナ",
    false,
    [
-    "iizuna"
+    "iiduna"
    ]
   ],
   [
    "アオツヅラフジ",
    false,
    [
-    "aotsuzurafuji"
+    "aotsudurafuji"
    ]
   ],
   [
    "エビヅル",
    false,
    [
-    "ebizuru"
+    "ebiduru"
    ]
   ],
   [
    "エビヅルむし",
    false,
    [
-    "ebizurumushi"
+    "ebidurumushi"
    ]
   ],
   [
    "エビヅルムシ",
    false,
    [
-    "ebizurumushi"
+    "ebidurumushi"
    ]
   ],
   [
    "テヅルモヅル",
    false,
    [
-    "tezurumozuru"
+    "tedurumoduru"
    ]
   ],
   [
    "クロキヅタ",
    false,
    [
-    "kurokizuta"
+    "kurokiduta"
    ]
   ],
   [
    "アメリカシロヅル",
    false,
    [
-    "amerikashirozuru"
+    "amerikashiroduru"
    ]
   ],
   [
    "ツヅラフジ",
    false,
    [
-    "tsuzurafuji"
+    "tsudurafuji"
    ]
   ],
   [
    "ツヅラフジか",
    false,
    [
-    "tsuzurafujika"
+    "tsudurafujika"
    ]
   ],
   [
    "セイヨウキヅタ",
    false,
    [
-    "seiyoukizuta"
+    "seiyoukiduta"
    ]
   ],
   [
    "ウミヅキチョウチョウウオ",
    false,
    [
-    "umizukichouchouuo"
+    "umidukichouchouuo"
    ]
   ],
   [
    "ミカヅキツバメウオ",
    false,
    [
-    "mikazukitsubameuo"
+    "mikadukitsubameuo"
    ]
   ],
   [
    "クマツヅラ",
    false,
    [
-    "kumatsuzura"
+    "kumatsudura"
    ]
   ],
   [
    "ゴキヅル",
    false,
    [
-    "gokizuru"
+    "gokiduru"
    ]
   ],
   [
    "ヨツヅノレイヨウ",
    false,
    [
-    "yotsuzunoreiyou"
+    "yotsudunoreiyou"
    ]
   ],
   [
    "クビレヅタ",
    false,
    [
-    "kubirezuta"
+    "kubireduta"
    ]
   ],
   [
    "ひがいしゃヅラ",
    false,
    [
-    "higaishazura"
+    "higaishadura"
    ]
   ],
   [
    "アネハヅル",
    false,
    [
-    "anehazuru"
+    "anehaduru"
    ]
   ],
   [
    "ウマヅラコウモリ",
    false,
    [
-    "umazurakoumori"
+    "umadurakoumori"
    ]
   ],
   [
    "マメヅタ",
    false,
    [
-    "mamezuta"
+    "mameduta"
    ]
   ],
   [
    "マメヅタラン",
    false,
    [
-    "mamezutaran"
+    "mamedutaran"
    ]
   ],
   [
    "カイヅカイブキ",
    false,
    [
-    "kaizukaibuki"
+    "kaidukaibuki"
    ]
   ],
   [
    "マイヅルソウ",
    false,
    [
-    "maizurusou"
+    "maidurusou"
    ]
   ],
   [
    "ダメヅメ",
    false,
    [
-    "damezume"
+    "damedume"
    ]
   ],
   [
    "リーヅモ",
    false,
    [
-    "riizumo"
+    "riidumo"
    ]
   ],
   [
    "ザーヅーチー",
    false,
    [
-    "zaazuuchii"
+    "zaadu-chii"
    ]
   ],
   [
    "ケヅメリクガメ",
    false,
    [
-    "kezumerikugame"
+    "kedumerikugame"
    ]
   ],
   [
    "ヅカ",
    false,
    [
-    "zuka"
+    "duka"
    ]
   ],
   [
    "ブライヅヘッドふたたび",
    false,
    [
-    "buraizuheddofutatabi"
+    "buraiduheddofutatabi"
    ]
   ]
  ],
@@ -22576,20 +22550,6 @@
    ]
   ],
   [
-   "でけー",
-   false,
-   [
-    "deke-"
-   ]
-  ],
-  [
-   "でっけー",
-   false,
-   [
-    "dekke-"
-   ]
-  ],
-  [
    "でけぇ",
    false,
    [
@@ -22671,6 +22631,20 @@
    false,
    [
     "madeni"
+   ]
+  ],
+  [
+   "ものである",
+   false,
+   [
+    "monodearu"
+   ]
+  ],
+  [
+   "アドオンでんわ",
+   false,
+   [
+    "adoondenwa"
    ]
   ]
  ],
@@ -23154,6 +23128,13 @@
    ]
   ],
   [
+   "ことごとく",
+   true,
+   [
+    "kotogotoku"
+   ]
+  ],
+  [
    "いいとしをして",
    false,
    [
@@ -23186,20 +23167,6 @@
    false,
    [
     "utotto"
-   ]
-  ],
-  [
-   "えーと",
-   false,
-   [
-    "e-to"
-   ]
-  ],
-  [
-   "えーっと",
-   false,
-   [
-    "e-tto"
    ]
   ],
   [
@@ -23301,13 +23268,6 @@
    ]
   ],
   [
-   "がーっと",
-   false,
-   [
-    "ga-tto"
-   ]
-  ],
-  [
    "があっと",
    false,
    [
@@ -23389,6 +23349,20 @@
    false,
    [
     "kotatsubuton"
+   ]
+  ],
+  [
+   "ことこと",
+   false,
+   [
+    "kotokoto"
+   ]
+  ],
+  [
+   "ことにすると",
+   false,
+   [
+    "kotonisuruto"
    ]
   ]
  ],
@@ -23966,7 +23940,6 @@
    "ちんどんや",
    false,
    [
-    "chindon'ya",
     "chindonnya"
    ]
   ],
@@ -24521,13 +24494,6 @@
    ]
   ],
   [
-   "かなー",
-   true,
-   [
-    "kana-"
-   ]
-  ],
-  [
    "かなわない",
    true,
    [
@@ -24798,6 +24764,13 @@
    false,
    [
     "sarigenai"
+   ]
+  ],
+  [
+   "しくしくなく",
+   false,
+   [
+    "shikushikunaku"
    ]
   ]
  ],
@@ -26107,7 +26080,7 @@
    "あいづぬり",
    false,
    [
-    "aizunuri"
+    "aidunuri"
    ]
   ],
   [
@@ -26661,6 +26634,13 @@
    ]
   ],
   [
+   "いね",
+   true,
+   [
+    "ine"
+   ]
+  ],
+  [
    "うねうね",
    false,
    [
@@ -26707,13 +26687,6 @@
    false,
    [
     "shinneri"
-   ]
-  ],
-  [
-   "つまらねー",
-   false,
-   [
-    "tsumarane-"
    ]
   ],
   [
@@ -26867,7 +26840,7 @@
    "いちねんぢゅう",
    false,
    [
-    "ichinenjuu"
+    "ichinendyuu"
    ]
   ],
   [
@@ -27281,13 +27254,6 @@
    ]
   ],
   [
-   "あのー",
-   true,
-   [
-    "ano-"
-   ]
-  ],
-  [
    "あのひと",
    true,
    [
@@ -27621,6 +27587,13 @@
    false,
    [
     "donobaainimo"
+   ]
+  ],
+  [
+   "のこのこ",
+   false,
+   [
+    "nokonoko"
    ]
   ]
  ],
@@ -28055,13 +28028,6 @@
    ]
   ],
   [
-   "おはよーございます",
-   false,
-   [
-    "ohayo-gozaimasu"
-   ]
-  ],
-  [
    "おふろにはいる",
    false,
    [
@@ -28129,13 +28095,6 @@
    false,
    [
     "nihanshite"
-   ]
-  ],
-  [
-   "はーい",
-   false,
-   [
-    "ha-i"
    ]
   ],
   [
@@ -28332,6 +28291,20 @@
    false,
    [
     "maikuroha"
+   ]
+  ],
+  [
+   "みいはあ",
+   false,
+   [
+    "miihaa"
+   ]
+  ],
+  [
+   "ミリは",
+   false,
+   [
+    "miriha"
    ]
   ]
  ],
@@ -28787,6 +28760,13 @@
    ]
   ],
   [
+   "ばれる",
+   true,
+   [
+    "bareru"
+   ]
+  ],
+  [
    "あおば",
    false,
    [
@@ -28812,13 +28792,6 @@
    false,
    [
     "obakeyashiki"
-   ]
-  ],
-  [
-   "おばーさん",
-   false,
-   [
-    "oba-san"
    ]
   ],
   [
@@ -30296,7 +30269,6 @@
    "ひんやり",
    false,
    [
-    "hin'yari",
     "hinnyari"
    ]
   ],
@@ -31716,13 +31688,6 @@
    ]
   ],
   [
-   "ぴーまん",
-   false,
-   [
-    "pi-man"
-   ]
-  ],
-  [
    "ぴかどん",
    false,
    [
@@ -31775,7 +31740,6 @@
    "いっぴんいっしょう",
    false,
    [
-    "ippin'isshou",
     "ippinnisshou"
    ]
   ],
@@ -31861,6 +31825,13 @@
    false,
    [
     "kenpitsu"
+   ]
+  ],
+  [
+   "けんぴつか",
+   false,
+   [
+    "kenpitsuka"
    ]
   ]
  ],
@@ -32302,13 +32273,6 @@
    ]
   ],
   [
-   "ふーふー",
-   false,
-   [
-    "fu-fu-"
-   ]
-  ],
-  [
    "ふかす",
    false,
    [
@@ -32379,24 +32343,10 @@
    ]
   ],
   [
-   "ふわーっと",
-   false,
-   [
-    "fuwa-tto"
-   ]
-  ],
-  [
    "ふうわり",
    false,
    [
     "fuuwari"
-   ]
-  ],
-  [
-   "ふーわり",
-   false,
-   [
-    "fu-wari"
    ]
   ],
   [
@@ -32565,6 +32515,27 @@
    false,
    [
     "hitofudegaki"
+   ]
+  ],
+  [
+   "ひとふろ",
+   false,
+   [
+    "hitofuro"
+   ]
+  ],
+  [
+   "ひとふんべつ",
+   false,
+   [
+    "hitofunbetsu"
+   ]
+  ],
+  [
+   "ひとあわふかせる",
+   false,
+   [
+    "hitoawafukaseru"
    ]
   ]
  ],
@@ -33118,13 +33089,6 @@
    ]
   ],
   [
-   "ぶーぶー",
-   false,
-   [
-    "bu-bu-"
-   ]
-  ],
-  [
    "ぶうぶう",
    false,
    [
@@ -33269,6 +33233,13 @@
    false,
    [
     "buchikorosu"
+   ]
+  ],
+  [
+   "ぶりぶり",
+   false,
+   [
+    "buriburi"
    ]
   ]
  ],
@@ -33717,13 +33688,6 @@
    ]
   ],
   [
-   "ぷーたろう",
-   false,
-   [
-    "pu-tarou"
-   ]
-  ],
-  [
    "ぷかぷか",
    false,
    [
@@ -33973,6 +33937,13 @@
    false,
    [
     "shunpuutaitou"
+   ]
+  ],
+  [
+   "じゅんぷうびぞく",
+   false,
+   [
+    "junpuubizoku"
    ]
   ]
  ],
@@ -35965,7 +35936,7 @@
    "けんぺいづく",
    false,
    [
-    "kenpeizuku"
+    "kenpeiduku"
    ]
   ],
   [
@@ -37181,13 +37152,6 @@
    ]
   ],
   [
-   "ぼーっと",
-   true,
-   [
-    "bo-tto"
-   ]
-  ],
-  [
    "ぼけ",
    true,
    [
@@ -37212,7 +37176,6 @@
    "ぼんやり",
    true,
    [
-    "bon'yari",
     "bonnyari"
    ]
   ],
@@ -37509,6 +37472,13 @@
    [
     "habburubouenkyou"
    ]
+  ],
+  [
+   "ミサイルぼうえい",
+   false,
+   [
+    "misairubouei"
+   ]
   ]
  ],
  "ボ": [
@@ -37670,7 +37640,6 @@
    "ボンヤリ",
    false,
    [
-    "bon'yari",
     "bonnyari"
    ]
   ],
@@ -38013,6 +37982,13 @@
    ]
   ],
   [
+   "ごくろうさま",
+   true,
+   [
+    "gokurousama"
+   ]
+  ],
+  [
    "のま",
    false,
    [
@@ -38051,7 +38027,7 @@
    "いぢましい",
    false,
    [
-    "ijimashii"
+    "idimashii"
    ]
   ],
   [
@@ -38143,13 +38119,6 @@
    false,
    [
     "omaesan"
-   ]
-  ],
-  [
-   "おはよーございます",
-   false,
-   [
-    "ohayo-gozaimasu"
    ]
   ],
   [
@@ -38857,13 +38826,6 @@
    ]
   ],
   [
-   "みーはー",
-   false,
-   [
-    "mi-ha-"
-   ]
-  ],
-  [
    "レコードのみぞ",
    false,
    [
@@ -38917,6 +38879,13 @@
    false,
    [
     "yamikumo"
+   ]
+  ],
+  [
+   "やみね",
+   false,
+   [
+    "yamine"
    ]
   ]
  ],
@@ -40300,13 +40269,6 @@
    ]
   ],
   [
-   "らーめん",
-   false,
-   [
-    "ra-men"
-   ]
-  ],
-  [
    "らあめん",
    false,
    [
@@ -40325,6 +40287,13 @@
    false,
    [
     "mederu"
+   ]
+  ],
+  [
+   "えひめけん",
+   false,
+   [
+    "ehimeken"
    ]
   ]
  ],
@@ -41014,7 +40983,7 @@
    "にもとづいて",
    false,
    [
-    "nimotozuite"
+    "nimotoduite"
    ]
   ],
   [
@@ -41036,13 +41005,6 @@
    false,
    [
     "monyamonya"
-   ]
-  ],
-  [
-   "もー",
-   false,
-   [
-    "mo-"
    ]
   ],
   [
@@ -41282,7 +41244,6 @@
    "オープンエンドモーゲージ",
    false,
    [
-    "oopun'endomoogeeji",
     "oopunnendomoogeeji"
    ]
   ],
@@ -41495,7 +41456,6 @@
    "ぼんやり",
    true,
    [
-    "bon'yari",
     "bonnyari"
    ]
   ],
@@ -41650,7 +41610,6 @@
    "ちんどんや",
    false,
    [
-    "chindon'ya",
     "chindonnya"
    ]
   ],
@@ -41686,7 +41645,6 @@
    "ひんやり",
    false,
    [
-    "hin'yari",
     "hinnyari"
    ]
   ],
@@ -41843,7 +41801,6 @@
    "ボンヤリ",
    false,
    [
-    "bon'yari",
     "bonnyari"
    ]
   ],
@@ -42161,7 +42118,6 @@
    "うんゆ",
    true,
    [
-    "un'yu",
     "unnyu"
    ]
   ],
@@ -42169,7 +42125,6 @@
    "うんゆしょう",
    true,
    [
-    "un'yushou",
     "unnyushou"
    ]
   ],
@@ -42188,6 +42143,13 @@
    ]
   ],
   [
+   "おくゆき",
+   true,
+   [
+    "okuyuki"
+   ]
+  ],
+  [
    "おゆ",
    false,
    [
@@ -42199,13 +42161,6 @@
    false,
    [
     "kouyuu"
-   ]
-  ],
-  [
-   "こーゆー",
-   false,
-   [
-    "ko-yu-"
    ]
   ],
   [
@@ -42282,7 +42237,6 @@
    "あんゆ",
    false,
    [
-    "an'yu",
     "annyu"
    ]
   ],
@@ -42367,7 +42321,6 @@
    "いんゆ",
    false,
    [
-    "in'yu",
     "innyu"
    ]
   ],
@@ -42403,7 +42356,6 @@
    "うんゆだいじん",
    false,
    [
-    "un'yudaijin",
     "unnyudaijin"
    ]
   ],
@@ -42446,7 +42398,6 @@
    "えんゆうかい",
    false,
    [
-    "en'yuukai",
     "ennyuukai"
    ]
   ],
@@ -42454,7 +42405,6 @@
    "えんゆう",
    false,
    [
-    "en'yuu",
     "ennyuu"
    ]
   ],
@@ -42548,7 +42498,6 @@
    "インフォメーションユーティリティー",
    false,
    [
-    "infuomeeshon'yuuteiriteii",
     "infuomeeshonnyuuteiriteii"
    ]
   ],
@@ -42570,7 +42519,6 @@
    "オープンユニバーシティー",
    false,
    [
-    "oopun'yunibaashiteii",
     "oopunnyunibaashiteii"
    ]
   ],
@@ -42578,7 +42526,6 @@
    "オンユアマーク",
    false,
    [
-    "on'yuamaaku",
     "onnyuamaaku"
    ]
   ],
@@ -42998,13 +42945,6 @@
    ]
   ],
   [
-   "おはよーございます",
-   false,
-   [
-    "ohayo-gozaimasu"
-   ]
-  ],
-  [
    "このようなばあいに",
    false,
    [
@@ -43169,7 +43109,6 @@
    "コンピューターえんようせいさん",
    false,
    [
-    "konpyuutaaen'youseisan",
     "konpyuutaaennyouseisan"
    ]
   ],
@@ -43177,7 +43116,6 @@
    "コンピューターえんようせっけい",
    false,
    [
-    "konpyuutaaen'yousekkei",
     "konpyuutaaennyousekkei"
    ]
   ],
@@ -43369,7 +43307,6 @@
    "フローズンヨーグルト",
    false,
    [
-    "furoozun'yooguruto",
     "furoozunnyooguruto"
    ]
   ],
@@ -43384,14 +43321,13 @@
    "ブルヂヨア",
    false,
    [
-    "burujiyoa"
+    "burudiyoa"
    ]
   ],
   [
    "プレーンヨーグルト",
    false,
    [
-    "pureen'yooguruto",
     "pureennyooguruto"
    ]
   ],
@@ -43692,13 +43628,6 @@
    ]
   ],
   [
-   "あらー",
-   false,
-   [
-    "ara-"
-   ]
-  ],
-  [
    "いじらしい",
    false,
    [
@@ -43899,6 +43828,13 @@
    false,
    [
     "sayonarahoomuran"
+   ]
+  ],
+  [
+   "さらけだす",
+   false,
+   [
+    "sarakedasu"
    ]
   ]
  ],
@@ -44117,8 +44053,7 @@
    "チラッチラッ",
    false,
    [
-    "chiratchira",
-    "chiracchira"
+    "chiratchira"
    ]
   ],
   [
@@ -44815,7 +44750,7 @@
    "ヂリヂリ",
    false,
    [
-    "jirijiri"
+    "diridiri"
    ]
   ],
   [
@@ -45934,7 +45869,7 @@
    "づれる",
    false,
    [
-    "zureru"
+    "dureru"
    ]
   ],
   [
@@ -47325,24 +47260,10 @@
    ]
   ],
   [
-   "ふわーっと",
-   false,
-   [
-    "fuwa-tto"
-   ]
-  ],
-  [
    "ふうわり",
    false,
    [
     "fuuwari"
-   ]
-  ],
-  [
-   "ふーわり",
-   false,
-   [
-    "fu-wari"
    ]
   ],
   [
@@ -47427,6 +47348,20 @@
    false,
    [
     "terebidenwa"
+   ]
+  ],
+  [
+   "ドイツみんしゅきょうわこく",
+   false,
+   [
+    "doitsuminshukyouwakoku"
+   ]
+  ],
+  [
+   "ドイツれんぽうきょうわこく",
+   false,
+   [
+    "doitsurenpoukyouwakoku"
    ]
   ]
  ],
@@ -48081,7 +48016,6 @@
    "かんいっぱつをいれず",
    false,
    [
-    "kan'ippatsuwoirezu",
     "kannippatsuwoirezu"
    ]
   ],
@@ -48538,13 +48472,6 @@
    ]
   ],
   [
-   "おばーさん",
-   false,
-   [
-    "oba-san"
-   ]
-  ],
-  [
    "おまごさん",
    false,
    [
@@ -48605,6 +48532,20 @@
    false,
    [
     "kachin"
+   ]
+  ],
+  [
+   "かみさん",
+   false,
+   [
+    "kamisan"
+   ]
+  ],
+  [
+   "カミさん",
+   false,
+   [
+    "kamisan"
    ]
   ]
  ],
@@ -53020,7 +52961,6 @@
    "あしょうさんえん",
    false,
    [
-    "ashousan'en",
     "ashousannen"
    ]
   ],
@@ -54286,13 +54226,6 @@
    ]
   ],
   [
-   "ちゅー",
-   false,
-   [
-    "chu-"
-   ]
-  ],
-  [
    "ランブルべんもうちゅう",
    false,
    [
@@ -54549,6 +54482,13 @@
    false,
    [
     "kaichuu"
+   ]
+  ],
+  [
+   "かいちゅうもの",
+   false,
+   [
+    "kaichuumono"
    ]
   ]
  ],
@@ -55624,13 +55564,6 @@
    ]
   ],
   [
-   "にゃー",
-   true,
-   [
-    "nya-"
-   ]
-  ],
-  [
    "ぐにゃぐにゃ",
    false,
    [
@@ -55747,13 +55680,6 @@
    false,
    [
     "hannyaharamitta"
-   ]
-  ],
-  [
-   "にゃーにゃー",
-   false,
-   [
-    "nya-nya-"
    ]
   ],
   [
@@ -55893,7 +55819,7 @@
    "はんにゃづら",
    false,
    [
-    "hannyazura"
+    "hannyadura"
    ]
   ],
   [
@@ -55939,13 +55865,6 @@
    ]
   ],
   [
-   "にゃーん",
-   false,
-   [
-    "nya-n"
-   ]
-  ],
-  [
    "にゃあん",
    false,
    [
@@ -55957,6 +55876,27 @@
    false,
    [
     "sumatoraookonnyaku"
+   ]
+  ],
+  [
+   "こんにゃくゼリー",
+   false,
+   [
+    "konnyakuzerii"
+   ]
+  ],
+  [
+   "にんのうはんにゃはらみつきょう",
+   false,
+   [
+    "ninnouhannyaharamitsukyou"
+   ]
+  ],
+  [
+   "こんにゃくぼん",
+   false,
+   [
+    "konnyakubon"
    ]
   ]
  ],
@@ -57872,7 +57812,6 @@
    "ひゃくにんいっしゅ",
    false,
    [
-    "hyakunin'isshu",
     "hyakuninnisshu"
    ]
   ],
@@ -58098,20 +58037,6 @@
    ]
   ],
   [
-   "ひゅーっ",
-   false,
-   [
-    "hyu-"
-   ]
-  ],
-  [
-   "ひゅー",
-   false,
-   [
-    "hyu-"
-   ]
-  ],
-  [
    "ひゅうがなつ",
    false,
    [
@@ -58229,7 +58154,6 @@
    "ヒューマンアセスメント",
    false,
    [
-    "hyuuman'asesumento",
     "hyuumannasesumento"
    ]
   ],
@@ -58237,7 +58161,6 @@
    "ヒューマンインタフェース",
    false,
    [
-    "hyuuman'intafyeesu",
     "hyuumannintafyeesu"
    ]
   ],
@@ -58245,7 +58168,6 @@
    "ヒューマンインタレスト",
    false,
    [
-    "hyuuman'intaresuto",
     "hyuumannintaresuto"
    ]
   ],
@@ -58253,7 +58175,6 @@
    "ヒューマンエコロジー",
    false,
    [
-    "hyuuman'ekorojii",
     "hyuumannekorojii"
    ]
   ],
@@ -58261,7 +58182,6 @@
    "ヒューマンエンジニアリング",
    false,
    [
-    "hyuuman'enjiniaringu",
     "hyuumannenjiniaringu"
    ]
   ],
@@ -58374,7 +58294,6 @@
    "ヒューマンインターフェース",
    false,
    [
-    "hyuuman'intaafyeesu",
     "hyuumannintaafyeesu"
    ]
   ],
@@ -58403,7 +58322,6 @@
    "ヒューマンウェイブ",
    false,
    [
-    "hyuuman'ueibu",
     "hyuumannueibu"
    ]
   ],
@@ -58411,7 +58329,6 @@
    "ヒューマンウエーブ",
    false,
    [
-    "hyuuman'ueebu",
     "hyuumannueebu"
    ]
   ],
@@ -58468,7 +58385,6 @@
    "ヒューマンエラー",
    false,
    [
-    "hyuuman'eraa",
     "hyuumanneraa"
    ]
   ],
@@ -60001,7 +59917,7 @@
    "みょうとづれ",
    false,
    [
-    "myoutozure"
+    "myoutodure"
    ]
   ],
   [
@@ -60609,7 +60525,6 @@
    "リャンファンヤク",
    false,
    [
-    "ryanfuan'yaku",
     "ryanfuannyaku"
    ]
   ],
@@ -60850,7 +60765,6 @@
    "ありゅうさんえん",
    false,
    [
-    "aryuusan'en",
     "aryuusannen"
    ]
   ],
@@ -60998,14 +60912,13 @@
    "けいりゅうづり",
    false,
    [
-    "keiryuuzuri"
+    "keiryuuduri"
    ]
   ],
   [
    "げんゆりゅうしゅつ",
    false,
    [
-    "gen'yuryuushutsu",
     "gennyuryuushutsu"
    ]
   ],
@@ -62852,7 +62765,7 @@
    "ぎゅうづめ",
    false,
    [
-    "gyuuzume"
+    "gyuudume"
    ]
   ],
   [
@@ -63605,7 +63518,6 @@
    "えんようぎょぎょう",
    false,
    [
-    "en'yougyogyou",
     "ennyougyogyou"
    ]
   ],
@@ -63967,161 +63879,154 @@
    "やすみぢゃや",
    false,
    [
-    "yasumijaya"
+    "yasumidyaya"
    ]
   ],
   [
    "くちぢゃ",
    false,
    [
-    "kuchija"
+    "kuchidya"
    ]
   ],
   [
    "もんぢゃく",
    false,
    [
-    "monjaku"
+    "mondyaku"
    ]
   ],
   [
    "はぢゃ",
    false,
    [
-    "haja"
+    "hadya"
    ]
   ],
   [
    "ちゃのみぢゃわん",
    false,
    [
-    "chanomijawan"
+    "chanomidyawan"
    ]
   ],
   [
    "みずぢゃや",
    false,
    [
-    "mizujaya"
+    "mizudyaya"
    ]
   ],
   [
    "めおとぢゃわん",
    false,
    [
-    "meotojawan"
+    "meotodyawan"
    ]
   ],
   [
    "かけぢゃや",
    false,
    [
-    "kakejaya"
+    "kakedyaya"
    ]
   ],
   [
    "いろぢゃや",
    false,
    [
-    "irojaya"
+    "irodyaya"
    ]
   ],
   [
    "りょうりぢゃや",
    false,
    [
-    "ryourijaya"
+    "ryouridyaya"
    ]
   ],
   [
    "めしぢゃわん",
    false,
    [
-    "meshijawan"
+    "meshidyawan"
    ]
   ],
   [
    "ひきてぢゃや",
    false,
    [
-    "hikitejaya"
+    "hikitedyaya"
    ]
   ],
   [
    "こうらいぢゃわん",
    false,
    [
-    "kouraijawan"
+    "kouraidyawan"
    ]
   ],
   [
    "らくぢゃわん",
    false,
    [
-    "rakujawan"
+    "rakudyawan"
    ]
   ],
   [
    "あいまいぢゃや",
    false,
    [
-    "aimaijaya"
+    "aimaidyaya"
    ]
   ],
   [
    "まちあいぢゃや",
    false,
    [
-    "machiaijaya"
+    "machiaidyaya"
    ]
   ],
   [
    "ぢゃない",
    false,
    [
-    "janai"
+    "dyanai"
    ]
   ],
   [
    "ゆのみぢゃわん",
    false,
    [
-    "yunomijawan"
+    "yunomidyawan"
    ]
   ],
   [
    "てんもくぢゃわん",
    false,
    [
-    "tenmokujawan"
+    "tenmokudyawan"
    ]
   ],
   [
    "あくぢゃり",
    false,
    [
-    "akujari"
+    "akudyari"
    ]
   ],
   [
    "しばいぢゃや",
    false,
    [
-    "shibaijaya"
-   ]
-  ],
-  [
-   "ぢゃねー",
-   false,
-   [
-    "jane-"
+    "shibaidyaya"
    ]
   ],
   [
    "ぢゃねぇ",
    false,
    [
-    "janee"
+    "dyanee"
    ]
   ]
  ],
@@ -64131,63 +64036,63 @@
    "いちにちぢゅう",
    false,
    [
-    "ichinichijuu"
+    "ichinichidyuu"
    ]
   ],
   [
    "いちねんぢゅう",
    false,
    [
-    "ichinenjuu"
+    "ichinendyuu"
    ]
   ],
   [
    "しんぢゅう",
    false,
    [
-    "shinjuu"
+    "shindyuu"
    ]
   ],
   [
    "ねんぢゅう",
    false,
    [
-    "nenjuu"
+    "nendyuu"
    ]
   ],
   [
    "ねんぢゅうぎょうじ",
    false,
    [
-    "nenjuugyouji"
+    "nendyuugyouji"
    ]
   ],
   [
    "れんぢゅう",
    false,
    [
-    "renjuu"
+    "rendyuu"
    ]
   ],
   [
    "ろうぢゅう",
    false,
    [
-    "roujuu"
+    "roudyuu"
    ]
   ],
   [
    "あとおいしんぢゅう",
    false,
    [
-    "atooishinjuu"
+    "atooishindyuu"
    ]
   ],
   [
    "ぢゅう",
    false,
    [
-    "juu"
+    "dyuu"
    ]
   ]
  ],
@@ -64197,91 +64102,91 @@
    "いっぽんぢょうし",
    false,
    [
-    "ipponjoushi"
+    "ippondyoushi"
    ]
   ],
   [
    "ぢょうじゃく",
    false,
    [
-    "joujaku"
+    "dyoujaku"
    ]
   ],
   [
    "のぼりぢょうし",
    false,
    [
-    "noborijoushi"
+    "noboridyoushi"
    ]
   ],
   [
    "おだわらぢょうちん",
    false,
    [
-    "odawarajouchin"
+    "odawaradyouchin"
    ]
   ],
   [
    "たかはりぢょうちん",
    false,
    [
-    "takaharijouchin"
+    "takaharidyouchin"
    ]
   ],
   [
    "ぼんぢょうちん",
    false,
    [
-    "bonjouchin"
+    "bondyouchin"
    ]
   ],
   [
    "ゆみはりぢょうちん",
    false,
    [
-    "yumiharijouchin"
+    "yumiharidyouchin"
    ]
   ],
   [
    "むみょうぢょうや",
    false,
    [
-    "mumyoujouya"
+    "mumyoudyouya"
    ]
   ],
   [
    "ぢょうし",
    false,
    [
-    "joushi"
+    "dyoushi"
    ]
   ],
   [
    "はなぢょうちん",
    false,
    [
-    "hanajouchin"
+    "hanadyouchin"
    ]
   ],
   [
    "つりぢょうちん",
    false,
    [
-    "tsurijouchin"
+    "tsuridyouchin"
    ]
   ],
   [
    "しらはりぢょうちん",
    false,
    [
-    "shiraharijouchin"
+    "shiraharidyouchin"
    ]
   ],
   [
    "ぎふぢょうちん",
    false,
    [
-    "gifujouchin"
+    "gifudyouchin"
    ]
   ]
  ],
@@ -64410,7 +64315,6 @@
    "びゃくだんゆ",
    false,
    [
-    "byakudan'yu",
     "byakudannyu"
    ]
   ],
@@ -64780,13 +64684,6 @@
    false,
    [
     "byun"
-   ]
-  ],
-  [
-   "びゅーん",
-   false,
-   [
-    "byu-n"
    ]
   ],
   [
@@ -65385,7 +65282,7 @@
    "かんびょうづかれ",
    false,
    [
-    "kanbyouzukare"
+    "kanbyoudukare"
    ]
   ],
   [
@@ -65835,7 +65732,6 @@
    "コンピューターえんようせいさん",
    false,
    [
-    "konpyuutaaen'youseisan",
     "konpyuutaaennyouseisan"
    ]
   ],
@@ -65843,7 +65739,6 @@
    "コンピューターえんようせっけい",
    false,
    [
-    "konpyuutaaen'yousekkei",
     "konpyuutaaennyousekkei"
    ]
   ],
@@ -66401,7 +66296,6 @@
    "ピョンヤン",
    true,
    [
-    "pyon'yan",
     "pyonnyan"
    ]
   ],
@@ -66486,7 +66380,6 @@
    "ピョンヤンじかん",
    false,
    [
-    "pyon'yanjikan",
     "pyonnyanjikan"
    ]
   ]
