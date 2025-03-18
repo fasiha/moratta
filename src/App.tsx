@@ -96,11 +96,11 @@ function App() {
           type="text"
         />{" "}
         <button type="submit" disabled={!match()}>
-          Next
+          つぎ
         </button>
       </form>
       <div class="footer">
-        <a href="https://github.com/fasiha/moratta#readme">Help</a>
+        <a href="https://github.com/fasiha/moratta#readme">インフォ / Help</a>
       </div>
     </>
   );
