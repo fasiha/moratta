@@ -50,6 +50,8 @@ function App() {
         .replace(/si/g, "shi")
         .replace(/jy/g, "j")
         .replace(/chy/g, "ch")
+        .replace(/v([ao])/g, "vu$1")
+        .replace(/v([ei])/g, "vy$1")
         .replace(/([^sc]|^)hu/g, "$1fu")
     )
   );
