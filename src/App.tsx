@@ -52,6 +52,7 @@ function App() {
         .replace(/chy/g, "ch")
         .replace(/v([ao])/g, "vu$1")
         .replace(/v([ei])/g, "vy$1")
+        .replace(/we/g, "ue")
         .replace(/([^sc]|^)hu/g, "$1fu")
     )
   );
