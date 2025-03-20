@@ -38,9 +38,9 @@ See this [script](./scripts/extractExamples.ts) for how we pick a handful of wor
 
 To rerun it,
 
-1. Download a recent [release](https://github.com/scriptin/jmdict-simplified/releases) of JMDict Simplified
-2. place `jmdict-eng-3.6.1.json` in the same directory as the script (`./scripts`),
-3. (optional: if you downloaded a newer version, change the `JMDICT_FILENAME` in the script accordingly),
+1. Download a recent [release](https://github.com/scriptin/jmdict-simplified/releases) of JMDict Simplified's `eng` or `all` (I used this [one](https://github.com/scriptin/jmdict-simplified/releases/tag/3.6.1%2B20250310122413) → `jmdict-eng-3.6.1+20250310122413.json.zip`; different ones will generate slightly different results since the data shifts a bit)
+2. unzip and place `jmdict-eng-3.6.1.json` in the same directory as the script (`./scripts`),
+3. (optional: if your download has a different name, change `JMDICT_FILENAME` in the script accordingly),
 4. run `node --experimental-transform-types extractExamples.ts` (assumes a recent Node that can run TypeScript files).
 
 This updates the answer key in [`examples.json`](./scripts/examples.json).
