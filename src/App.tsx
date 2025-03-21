@@ -46,6 +46,7 @@ function App() {
         .replace(/fi/g, "fyi")
         .replace(/cch/g, "tch")
         .replace(/fa/g, "fua")
+        .replace(/f([ei])/g, "fy$1")
         .replace(/nn([^y]?)/g, "n$1")
         .replace(/si/g, "shi")
         .replace(/jy/g, "j")
